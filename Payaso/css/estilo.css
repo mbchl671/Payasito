@@ -1,0 +1,127 @@
+body, html {
+    height: 100%;
+    background-color: indianred;
+    margin: 50px;
+    justify-content: center;
+    align-items: center;
+}
+#rostro {
+    margin: 0;
+    top: 10%;
+    position: relative;
+    width: 500px;
+    height: 500px;
+    background-color: #ffcc66; 
+    border-radius: 50%;
+}
+
+#sombrero {
+    width: 300px;
+    height: 160px;
+    background-color: black; 
+    position: absolute;
+    top: -100px; 
+    left: 50%; 
+    transform: translateX(-50%);
+    border-radius: 20%;
+    overflow: hidden; 
+}
+
+#copa {
+    width: 150px;
+    height: 100px;
+    background-color: black; 
+    position: absolute;
+    top: -30px;
+    left: 0;
+    right: 0;
+}
+
+#abajo { 
+    top: 30px;
+    width: 500px;
+    height: 80px;
+    background-color: #000000; 
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 10px;
+}
+
+#ojos {
+    
+    position: absolute;
+    top: 130px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+#ojo {
+    width: 100px;
+    height: 130px;
+    background-color: white; 
+    border-radius: 50%;
+    position: relative;
+}
+#pupila {
+    width: 50px;
+    height: 50px;
+    background-color: black; 
+    border-radius: 50%;
+    position: absolute;
+    top: 70%;
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+}
+
+#nariz {
+    width: 100px;
+    height: 100px;
+    background-color: #f10000; 
+    position: absolute;
+    top: 190px; 
+    left: 50%;
+    border-radius: 50%;
+    z-index: 1;
+    transform: translate(-50%);
+
+}
+
+#boca {
+    width: 100%;
+    height: 200px;
+    position: relative;
+    top: 250px; 
+    display: flex;
+    justify-content: center;
+}
+
+#boca1 {
+    width: 80%;
+    background-color: #04b0ce;
+    display: flex;
+    justify-content: center;
+    border-radius: 110px;
+    align-items: center;
+}
+
+#boca2 {
+    border-radius: 90px;
+    width: 70%;
+    height: 120px;
+    background-color: #d8b30e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#sonrisa {
+    width: 60px;
+    height: 3px;
+    border: 3px;
+    background-color: #000000;
+    
+}
